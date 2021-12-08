@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Solutions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+    <div class="menuIcon">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+    <div class="companyName">
+        <h2>Smith Solutions</h2>
+    </div>
+</nav>
+<div class="menu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="product.html">Products</a>
+    <a href="contact.html">Contact</a>
+</div>
+<div class="splash">
+    <h1>Everyday Business Web Solutions </h1>
+</div>
+<div class="contentContainer">
+    <div class="content2">
+         <p>You can find our Facebook page <a href="https://www.facebook.com/noah.smith.180">here</a>
+         or we can be contacted at SmithSolutions@gmail.com. We can also be reached at (317)123-4567. You may also use our contact box, and we will get back to you as soon as we can. We appreciate your desire to work with us and hope we can help you soon. </p>
+    </div>
+    <dive class="content3">
+        <link href="contact-form.css" rel="stylesheet">
+
+        <div class="fcf-body">
+
+            <div id="fcf-form">
+                <h3 class="fcf-h3">Contact us</h3>
+
+                <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+
+                    <div class="fcf-form-group">
+                        <label for="Name" class="fcf-label">Your name</label>
+                        <div class="fcf-input-group">
+                            <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                        </div>
+                    </div>
+
+                    <div class="fcf-form-group">
+                        <label for="Email" class="fcf-label">Your email address</label>
+                        <div class="fcf-input-group">
+                            <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                        </div>
+                    </div>
+
+                    <div class="fcf-form-group">
+                        <label for="Message" class="fcf-label">Your message</label>
+                        <div class="fcf-input-group">
+                            <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                        </div>
+                    </div>
+
+                    <div class="fcf-form-group">
+                        <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+    </dive>
+</div>
+<footer>
+    <div class="copyright">
+        <h3>20XX</h3>
+    </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

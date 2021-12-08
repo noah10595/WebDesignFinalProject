@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.2cRlx-SbUVaneelQ-YtEMgHaE8&pid=Api&P=0&w=267&h=179);
+}
+
+nav{
+    height: 60px;
+    width: 100%;
+    background-color: darkcyan;
+    position: fixed;
+    top:0;
+    z-index: 99;
+}
+
+.companyName{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 200px;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkcyan;
+    transition: 0s;
+    z-index: 99;
+}
+
+.menuIcon{
+    height: 100%;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.menu{
+    position: fixed;
+    top: -250px;
+    right: 0;
+    margin-top: 60px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: lightsteelblue;
+    min-height: 150px;
+    transition: 0.5s;
+}
+
+a {
+    color: darkslategray;
+    text-decoration: none;
+}
+
+.bar{
+    height: 6px;
+    width: 90%;
+    background-color: white;
+
+}
+
+.splash{
+    margin-top:60px;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    display: flex;
+    font-size: 40px;
+    color:white;
+}
+
+h2{
+    display: flex;
+    color: white;
+}
+
+h3{
+    display: flex;
+    font-size: 40px;
+    color:white;
+}
+
+.first{
+    Position: relative;
+    z-index: -1;
+    text-align: center;
+    background-color: lightcyan;
+}
+
+.second{
+    Position: relative;
+    z-index: -1;
+    text-align: center;
+    background-color: lightcyan;
+}
+
+.third{
+    Position: relative;
+    z-index: -1;
+    text-align: center;
+    background-color: lightcyan;
+}
+
+.fourth{
+    Position: relative;
+    z-index: -1;
+    text-align: center;
+    background-color: lightcyan;
+}
+
+.for1{
+    z-index: 1;
+    margin-top: 150px;
+}
+
+.for2{
+    z-index: 1;
+    margin-top: 75px;
+}
+
+.for3{
+    z-index: 1;
+    margin-top: 110px;
+}
+
+.for4{
+    z-index: 1;
+    margin-top: 10px;
+}
+
+.contentContainer{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+.content1{
+    width: 250px;
+    height: auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: lightcyan;
+}
+
+.content2{
+    width: 250px;
+    height: auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: lightcyan;
+}
+
+.clickable1{
+    width: 200px;
+    height: auto;
+    margin-bottom: 60px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcyan;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.clickable2{
+    width: 200px;
+    height: auto;
+    margin-bottom: 60px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcyan;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.clickable3{
+    width: 200px;
+    height: auto;
+    margin-bottom: 60px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcyan;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.clickable4{
+    width: 200px;
+    height: auto;
+    margin-bottom: 60px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcyan;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.house1{
+    margin-bottom: 0;
+    width: 200px;
+    height: 200px;
+}
+
+.house2{
+    margin-bottom: 0;
+    width: 200px;
+    height: 200px;
+}
+
+.house3{
+    margin-bottom: 0;
+    width: 200px;
+    height: 200px;
+}
+
+.house4{
+    margin-bottom: 0;
+    width: 200px;
+    height: 200px;
+}
+
+img{
+    max-width: 250px;
+    max-height: 250px;
+    margin-bottom: 60px;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom:0;
+    width: 100%;
+    background-color: darkcyan;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 800px){
+    .menuIcon{
+        top: -150px;
+    }
+
+    .menu{
+        position: fixed;
+        top:-60px;
+        right: 0;
+        width: 300px;
+        min-height: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        background-color: darkcyan;
+        transition: 0s;
+        z-index: 99;
+    }
+}
+
+@media screen and (max-width: 539px){
+    .content2{
+        margin-top:50px;
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    h1{
+        font-size: 30px;
+    }
+}
